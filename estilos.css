@@ -1,0 +1,281 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+	font-family: arial, helvetica;
+	background: #e8e8e8;
+}
+.menu{
+	list-style: none;
+	padding: 0;
+	background: #1967ce;
+	width: 80%;
+	max-width: 1000px;
+    margin: auto;
+    float: right ;
+    margin-top: 5px;
+}
+.menu li a{
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+	display: block;
+}
+.menu li{
+	display: inline-block;
+    text-align: center;
+}
+.menu li a:hover{
+	background: #50a6f7;
+}
+#header{
+    background-color: #1967ce;
+    width: 100%;
+    height: 70px;
+    margin-top: 0;
+    position: fixed;
+    top: 0;
+}
+#contenedor{
+    background-color: #50a6f7;
+    width: 80%;
+    height: 900px;
+    margin: auto;
+    margin-top: 150px;
+}
+#Ideando{
+    padding: 10px;
+    float: left;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+#bloque1{
+    background-color:  #50a6f7;
+    float: left;
+    margin-top: 1%;
+    margin: 1%;
+    width: 20%;
+    height: 95%;
+}
+#imagenmenu{
+    background-color: #50a6f7;
+    padding: 10px;
+    margin: auto;
+}
+#menuproyectos{
+    background-color:  #50a6f7;
+    width: 90%;
+    height: 300px;
+    margin: auto;
+    margin-top: 10px;
+}
+#fondomenuvertical{
+    background-color:  #50a6f7;
+    width: 100%;
+    height: 350px;
+    margin: auto;
+    margin-top: 10px;
+}
+.menuvertical{
+	list-style: none;
+	background:  #50a6f7;
+    width: 70%;
+    height: 350px;
+	margin: auto;
+    margin-top: 10px;
+}
+.menuvertical li a{
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+	display: block;
+}
+.menuvertical li{
+	text-align: center;
+}
+.menuvertical li a:hover{
+    background: #5ccfbc;
+}
+#bloque2{
+    background-color: rgb(127, 183, 247);
+    float: left;
+    margin-top: 1%;
+    margin: 1%;
+    width: 50%;
+    height: 95%;    
+}
+#titulomenu{
+    background-color: rgb(127, 183, 247);
+    padding: 20px;
+    width: 90%;
+    height: 200px;
+    margin-top: 10px;
+    margin: auto;
+}
+#contenido{
+    background-color: white;
+    width: 95%;
+    height: 600px;
+    margin: auto;
+    margin-top: 10px;
+}
+#fotosala{
+    width: 500px;
+    height: 500px;
+    margin-top: 10px;
+    margin: auto;
+}
+#bloque3{
+    background-color: #50a6f7;
+    float: left;
+    margin-top: 1%;
+    margin: 1%;
+    width: 24%;
+    height: 95%;
+}
+#videomenu {
+    padding: 0px;
+    margin: auto;
+    width: 100%;
+    height: 25%;
+}
+.MisProyectos{
+    background-color: #50a6f7;
+    width: 80%;
+    height: 1000px;
+    margin: auto;
+    margin-top: 150px;
+    overflow:hidden;
+    
+}
+.wrapper div {
+    width:330px;
+
+    margin-top:-10px;
+}
+
+#Suba_P{
+   
+    width:80%;
+    height:250px;
+    margin: auto;
+    margin: 10%;
+    margin-top: 2%;
+    
+}
+#Chapinero_P{
+    width:80%;
+    height:250px;
+    margin: auto;
+    margin: 10%;
+    margin-top: 2%;
+}
+#Veintedejulio_P{
+    width:80%;
+    height:250px;
+    margin: auto;
+    margin: 10%;
+    margin-top: 2%;
+}
+#Madrid_P{
+    width:80%;
+    height:250px;
+    margin: auto;
+    margin: 10%;
+    margin-top: 2%;
+}
+#Tocancipa_P{
+    width:80%;
+    height:250px;
+    margin: auto;
+    margin: 10%;
+    margin-top: 2%;
+}
+#Fontibon_P{
+    width:80%;
+    height:250px;
+    margin: auto;
+    margin: 10%;
+    margin-top: 2%;
+}
+#foto_suba{
+    width: 50%;
+    height: 300px;
+    float: left;
+    margin: auto;
+    margin-top: 20px;
+
+}
+#foto_chapinero{
+    width: 50%;
+    height: 300px;
+    float: left;
+    margin: auto;
+    margin-top: 20px;
+
+}
+#foto_veintedejulio{
+    width: 50%;
+    height: 300px;
+    float: left;
+    margin: auto;
+    margin-top: 20px;
+
+}
+#foto_madrid{
+    width: 50%;
+    height: 300px;
+    float: left;
+    margin: auto;
+    margin-top: 20px;
+
+}
+#foto_tocancipa{
+    width: 50%;
+    height: 300px;
+    float: left;
+    margin: auto;
+    margin-top: 20px;
+
+}
+#foto_fontibon{
+    width: 50%;
+    height: 300px;
+    float: left;
+    margin: auto;
+    margin-top: 20px;
+
+}
+#Info_Empresarial{
+    background-color: #50a6f7;
+    width: 80%;
+    height: 300px;
+    margin: auto;
+    margin-top: 100px; 
+}
+#contactanos{
+    background-color: #4380b9;
+    width: 27%;
+    height: 200px;
+    margin: 1%;
+    float: left;
+    padding: 2%;
+    
+}
+#quienes_somos{
+    background-color: #4c93d4;
+    width: 27%;
+    height: 200px;
+    margin: 1%;
+    float: left;
+    padding: 2%;
+}
+#historia{
+    background-color: #78b9f7;
+    width: 27%;
+    height: 200px;
+    margin: 1%;
+    float: left;
+    padding: 2%;
+}
